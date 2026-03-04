@@ -1,0 +1,78 @@
+Estrutura de dados: 
+-Operações classicas:
+
+INSERIR:
+C++    = push_back()
+Java   = add()
+C#     = Add()
+Python = append()
+
+REMOVER:
+C++    = pop_back()
+Java   = remove()
+C#     = Remove()
+Python = remove()
+
+VERIFICAR TAMANHO:
+C++    = size()
+Java   = sizer()
+C#     = Count
+Python = len()
+
+Se a lista está vazia
+- se o tamanho for igual a zero
+- empty() ou isEmpety()
+
+LOCALIZAR:
+vetor[5,9,7,2,5]
+TAM = 5
+
+-C
+numero = 5
+for (int 1 = 0; i < TAM; i++){
+    if(numero == vetor[i]){
+       econtrado = true;
+       break;
+    }
+}
+if(encontrado){
+  print("Numero encontrado");
+}else{
+  print("Numero encontrado");
+}
+
+-Python
+vetor[5,9,7,2,5]
+numero = 5
+if numero in vetor:
+    print("Encontrado")
+else:
+    print("Nao encontrado")
+
+-Java
+vetor[5,9,7,2,5]
+numero = 5
+if vetor.contains(numero){
+    System.out.println("Encontrado");
+}else{
+    Sysmtem.out.println("Nao encontrado");
+}
+
+-C#
+vetor[5,9,7,2,5]
+numero = 5
+if vetor.Contains(numero){
+    Console.write("Encontrado");
+}else{
+    Console.write("Nao encontrado");
+}
+
+
+
+
+
+
+
+
+
+
