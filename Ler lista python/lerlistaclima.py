@@ -14,11 +14,21 @@ try:
         if obj_clima not in lista:
             lista.append(obj_clima)
 
+    print("TODOS OS REGISTROS")
     for item in lista:
         print(item)
 
+    print("==============================================================================")
+    print("\n")
+    print("REGISTROS COM MAIOR PRECIPITACAO")
+    print("\n")
+
+    for item in lista:
+        if item.precipitacao.strip() == "muita":
+            print(item)
 
     #fechando o arquivo
     leitor.close()
+
 except Exception as e:
     print("Ocoreu algum erro...",e)
