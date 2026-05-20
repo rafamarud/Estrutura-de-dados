@@ -1,0 +1,18 @@
+ARVORES
+
+-CONCEITOS-
+RAIZ = Nó ou nodulo de uma (SUB) árvore
+
+FOLHA = Nó ou nodo sem filhos
+
+
+-PERCURSO-
+LRED = pré-fixado ---> para PESQUISA
+if(arvore.contains(60))
+
+LERD = in-fixado ---> para EXIBIÇÃO
+for(Integer i : arvore)}
+LERD
+
+LEDR = pós-fixado ---> para DESTRUIÇÃO DA ÁRVORE
+arvore.clear()
